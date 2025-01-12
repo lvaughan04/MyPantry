@@ -1,0 +1,25 @@
+# Common
+.DS_Store
+*.log
+*.swp
+.vscode/
+.idea/
+
+# Go backend
+mypantry-backend/env
+.env
+*.exe
+*.out
+*.test
+vendor/
+
+# Swift frontend
+*.xcuserdata
+*.xcworkspace
+DerivedData/
+build/
+*.ipa
+/.build/
+/Packages/
+Pods/
+mypantry-frontend/.env
