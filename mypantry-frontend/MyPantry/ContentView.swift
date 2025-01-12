@@ -13,7 +13,11 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Welcome to MyPantry")
+                .font(.largeTitle)
+                .padding()
+            Text("Your personal kitchen inventory tracker")
+                .padding()
         }
         .padding()
     }
